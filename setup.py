@@ -6,6 +6,8 @@ setup(
     author="pleb631",
     author_email="plebs631@gmail.com",
     packages=find_packages(),
+    setup_requires=['setuptools_scm'],
+    include_package_data=True,
     install_requires=[
     ],
 )
